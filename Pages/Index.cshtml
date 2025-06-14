@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Visit Tracker";
+}
+
+<div class="text-center">
+    <h1>Visit Tracker</h1>
+
+    <p>Your IP: <strong>@Model.ClientIP</strong></p>
+    <p>Visit count: <strong>@Model.VisitCount</strong></p>
+    <p>Time zone: <strong id="timeZoneDisplay">@Model.ClientTimeZone</strong></p>
+</div>
+
+@section Scripts {
+    <script>
+        // Client-side time zone detection
+        document.addEventListener("DOMContentLoaded", function() {
+            const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            document.getElementById("timeZoneDisplay").textContent = timeZone;
+
+            // Send timezone to server to store in cookie
+            fetch(`?handler=SaveTimeZone&timeZone=${encodeURIComponent(timeZone)}`, {
+                method: 'GET'
+            });
+        });
+    </script>
+}
