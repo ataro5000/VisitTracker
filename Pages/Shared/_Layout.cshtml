@@ -1,32 +1,44 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - VisitTracker</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/doc.css" asp-append-version="true" />
+    
 </head>
+
 <body>
-   
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <div class="head">
+        <div class="head-left-section">
+            <a class="head-link" asp-page="Index">
+                VisitTracker
+            </a>
+        </div>
+        <div class="head-middle-section">
+
+        </div>
+        <div class="head-right-section">
+
+        </div>
     </div>
 
-      <footer>
+
+     @RenderBody()
+
+
+    <footer>
         <div class="foot">
             &copy; @DateTime.Now.Year - VisitTracker
-
-            &nbsp;|&nbsp; <a href="#top">Back to Top</a>
+            &nbsp;|&nbsp; <a href="https://lively-tree-05c3a8d0f.6.azurestaticapps.net/">Cover</a>
+            &nbsp;|&nbsp; <a asp-page="/documentation">Documentation</a>
+            &nbsp;|&nbsp; <a asp-page="#top">Back to Top</a>
         </div>
     </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

@@ -14,8 +14,10 @@ C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\VisitTracker.csproj.CoreCo
 C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\VisitTracker.MvcApplicationPartsAssemblyInfo.cache
 C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\VisitTracker.RazorAssemblyInfo.cache
 C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\VisitTracker.RazorAssemblyInfo.cs
+C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\VisitTracker.sourcelink.json
 C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\scopedcss\bundle\VisitTracker.styles.css
 C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\staticwebassets.build.json
+C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\staticwebassets.development.json
 C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\VisitTracker.dll
@@ -23,4 +25,3 @@ C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\refint\VisitTracker.dll
 C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\VisitTracker.pdb
 C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\VisitTracker.genruntimeconfig.cache
 C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\ref\VisitTracker.dll
-C:\School\COMP466\TMA3A\VisitTracker\obj\Debug\net8.0\staticwebassets.build.json.cache
